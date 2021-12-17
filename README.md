@@ -2,12 +2,14 @@
 
 #####This box was created by **0815R2d2
 
-We start by running a netdiscover scan to get the IP address: 
+We start by running a netdiscover scan to get the IP address:
+
 ```sudo netdiscover -r <ip_address_range>```
 
 <img src="netdiscover.png">
 
 Then we run an nmap scan on 10.0.2.25: 
+
 ```nmap -A -v <ip_address>```
 
 <img src="nmap.png">
