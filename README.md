@@ -1,6 +1,6 @@
 # **FunBox_Scriptkiddie_Walkthrough
 
-#####This box was created by **0815R2d2
+####This box was created by **0815R2d2
 
 We start by running a netdiscover scan to get the IP address:
 
