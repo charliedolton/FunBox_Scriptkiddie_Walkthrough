@@ -34,7 +34,7 @@ set rhosts <ip_address_of_target>
 set lhost <your_ip_address>
 ```
 
-<img src="metaploit_module_ready.png">
+<img src="metasploit_module_ready.png">
 
 Now we simply type ```exploit``` and **BOOM** we have a reverse shell.
 
