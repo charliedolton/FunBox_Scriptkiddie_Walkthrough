@@ -1,4 +1,4 @@
-# **FunBox_Scriptkiddie_Walkthrough
+# **FunBox_Scriptkiddie_Walkthrough**
 
 This box was created by **0815R2d2**
 
